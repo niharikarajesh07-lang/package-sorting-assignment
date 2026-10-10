@@ -1,0 +1,18 @@
+Partition (pivot = 20): P2(15) P4(10) P5(15) P1(20) P6(20) P7(25) P3(20) 
+Partition (pivot = 15): P4(10) P5(15) P2(15) 
+Partition (pivot = 20): P3(20) P7(25) P6(20) 
+Partition (pivot = 20): P6(20) P7(25) 
+
+Final Quick Sort result:
+P8(10) P4(10) P5(15) P2(15) P1(20) P3(20) P6(20) P7(25) 
+Number of comparisons = 18
+
+----- STABILITY CHECK -----
+
+Original order of equal weights:
+10 kg : P4, P8
+15 kg : P2, P5
+20 kg : P1, P3, P6
+
+Merge Sort preserves this order:
+P4(10) P8(10) P2(15) P5(15) P1(20) P3(20) P6(20) P7(25) 
